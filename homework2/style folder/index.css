@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Lato", sans-serif;
+}
+
+i {
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 570px 570px;
+  grid-template-rows: 150px 150px 150px;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.main-container {
+  width: 1170px;
+  height: 633px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 53px;
+}
+.main-container h1 {
+  width: 100%;
+  font-weight: 300;
+  font-size: 30px;
+  color: #2C3E50;
+}
+.main-container .items-container .item {
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-container .items-container .item .icon-container {
+  gap: 28px;
+  margin-left: 50px;
+}
+.main-container .items-container .item .icon-container i {
+  display: flex;
+}
+.main-container .items-container .item .icon-container i.icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 7px;
+}
+.main-container .items-container .item .icon-container .icon-yellow {
+  background-color: #FFC12D;
+  border-color: #C89210;
+  color: #A47503;
+}
+.main-container .items-container .item .icon-container .icon-green {
+  background-color: #A7EC2F;
+  border-color: #7BC200;
+  color: #558502;
+}
+.main-container .items-container .item .icon-container .icon-red {
+  background-color: #FEB1A4;
+  border-color: #F55C43;
+  color: #D52E13;
+}
+.main-container .items-container .item .icon-container .icon-blue {
+  background-color: #85EBFA;
+  border-color: #47B4F6;
+  color: #0787D4;
+}
+.main-container .items-container .item .icon-container .icon-purple {
+  background-color: #AACDF6;
+  border-color: #8781BD;
+  color: #5B568E;
+}
+.main-container .items-container .item .icon-container .text-container {
+  height: 70px;
+}
+.main-container .items-container .item .icon-container .text-container h2 {
+  font-size: 14px;
+  font-weight: 900;
+  color: #2C3E50;
+  letter-spacing: 0.1em;
+}
+.main-container .items-container .item .icon-container .text-container p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #2C3E50;
+  margin-top: 13px;
+}
+.main-container .items-container .standart {
+  position: relative;
+  border-radius: 8px;
+  width: 570px;
+  height: 150px;
+}
+.main-container .items-container .big {
+  position: relative;
+  border-radius: 8px;
+  width: 100%;
+  height: 150px;
+  grid-column: span 2;
+}
+.main-container .items-container .yellow {
+  background-color: #FFC12D;
+}
+.main-container .items-container .green {
+  background-color: #A7EC2F;
+}
+.main-container .items-container .red {
+  background-color: #FEB1A4;
+}
+.main-container .items-container .blue {
+  background-color: #85EBFA;
+}
+.main-container .items-container .purple {
+  background-color: #AACDF6;
+}
+.main-container .close {
+  font-size: 14px;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  cursor: pointer;
+}
+.main-container .yellowx {
+  color: #A47503;
+}
+.main-container .greenx {
+  color: #558502;
+}
+.main-container .redx {
+  color: #D52E13;
+}
+.main-container .bluex {
+  color: #0787D4;
+}
+.main-container .purplex {
+  color: #5B568E;
+}
+
+/*# sourceMappingURL=index.css.map */
